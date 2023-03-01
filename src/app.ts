@@ -1,3 +1,5 @@
+// https://velog.io/@koo8624/Javascript-Decorator
+
 const myDecorator = (target: any, key: any, descriptor: any) => {
   const fn = descriptor.value || descriptor.initializer.call(this);
 
